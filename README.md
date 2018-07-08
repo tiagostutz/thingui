@@ -1,5 +1,7 @@
-![Logo](http://res.cloudinary.com/stutzsolucoes/image/upload/c_scale,h_403/v1531080103/thingui-logo.png)
 
+<p align="center">
+  <img height="300" src="http://res.cloudinary.com/stutzsolucoes/image/upload/c_scale,h_320/v1531080322/thingui-logo.png">
+</p>
 
 -----
 
