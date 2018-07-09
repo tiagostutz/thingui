@@ -19,7 +19,14 @@ In IoT world you have some serious constraints when building devices and compone
 - ...
 If you think about the constraints that nowdays applications faces, you will notice some of those characteristics, like: low lattency and feedback, usage of components from differentes manufacturers (aka OpenSource), async nature of the workflows, energy efficience (mobile data usage) and so on. So, the IoT world could teach us some lessons on how to achieve great results designing chaotic systems.
 
-## Real world example please.
+## Real world example, please.
+
+You can apply this concept with any of your prefered stack. I'll present here the stack that I use.
+- [React JS](https://reactjs.org/): React for the Web
+- [Rhelena](https://www.npmjs.com/package/rhelena): very simple React state manager based on View Model pattern
+- [manuh](https://www.npmjs.com/package/manuh): MQTT based broker for the view
+- [Homie IoT Convention](https://github.com/homieiot/convention): A lightweight MQTT convention for the IoT
+
 
 -----
 
