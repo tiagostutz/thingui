@@ -21,12 +21,20 @@ If you think about the constraints that nowdays applications faces, you will not
 
 ## Real world example, please.
 
-You can apply this concept with any of your prefered stack. I'll present here the stack that I use.
+I'll present here the stack I use, but feel free to use any other your are comfortable to because those concepts here are not implementation opinated. The stack:
 - [React JS](https://reactjs.org/): React for the Web
 - [Rhelena](https://www.npmjs.com/package/rhelena): very simple React state manager based on View Model pattern
 - [manuh](https://www.npmjs.com/package/manuh): MQTT based broker for the view
 - [Homie IoT Convention](https://github.com/homieiot/convention): A lightweight MQTT convention for the IoT
 
+### Simple example
+
+The example is to build a search page with the following features:
+1. a search bar for the search text input that should trigger the search when ENTER is pressed
+2. a search button that should "blink" when the search is triggered, by clicking it or pressing ENTER on the input text.
+3. a "clear text button" that should be hidden when the search text is empty and should clear the input text when it is pressed
+4. a panel with a list presenting the search history, with clickable itens to remade that search
+5. a lane with the search result
 
 -----
 
